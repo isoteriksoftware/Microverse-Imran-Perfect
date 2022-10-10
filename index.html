@@ -2,14 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Original Trombones</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <p>Hello World! We are software developers</p>
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="Logo"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <main>
+      <form
+        id="form"
+        method="get"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input type="submit" value="GET STARTED" id="submit" />
+      </form>
+
+      <div id="features">
+        <ul>
+          <li>Premium Materials</li>
+          <li>Fast Shipping</li>
+          <li>Quality Assurance</li>
+        </ul>
+      </div>
+
+      <div id="how-it-works">
+        <iframe
+          src="https://youtube.com/embed/y8Yv4pnO7qc"
+          frameborder="0"
+          width="420"
+          height="315"
+          id="video"
+        >
+        </iframe>
+      </div>
+
+      <div id="pricing">
+        <ul>
+          <li>$600</li>
+          <li>$900</li>
+          <li>$1200</li>
+        </ul>
+      </div>
+    </main>
     <script src="js/index.js"></script>
   </body>
 </html>
